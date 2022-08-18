@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" viewBox="0 0 500 500" xml:space="preserve">
+<desc>Created with Fabric.js #v460-16-g4c401908</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 300 200)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 0.400411032708702;"  xlink:href="https://ip.webmasterapi.com/api/imageproxy/http://fabricjs.com/assets/mononoke.jpg" x="-300" y="-200" width="600" height="400"></image>
+</g>
+<g transform="matrix(1 0 0 1 125.5 524.95)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,85,85); fill-rule: nonzero; opacity: 0.8;"  x="-25" y="-25" rx="0" ry="0" width="50" height="50" />
+</g>
+<g transform="matrix(1 0 0 1 175.5 75.5)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,85,85); fill-rule: nonzero; opacity: 0.8;"  x="-25" y="-25" rx="0" ry="0" width="50" height="50" />
+</g>
+<g transform="matrix(1 0 0 1 0 0)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 260.5 350.5)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,255); fill-rule: nonzero; opacity: 1;"  points="-50 50,0 -50,50 50" /></g>
+		<g transform="matrix(1 0 0 1 425.83 89.54)" style=""  >
+		<text xml:space="preserve" font-family="Times New Roman" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-195.33" y="5.03" >This group will loose an object once selected, erasable = true</tspan></text>
+</g>
+		<g transform="matrix(1 0 0 1 305.5 215.5)"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,128,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="75" />
+</g>
+</g>
+</g>
+<g transform="matrix(1 0 0 1 0 0)"  >
+<g style=""   >
+		<g transform="matrix(0.75 0.27 -0.44 1.24 55.24 356.12)"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,255); fill-rule: nonzero; opacity: 1;"  points="-50 50,0 -50,50 50" /></g>
+		<g transform="matrix(0.75 0.27 -0.44 1.24 194.96 70.72)" style=""  >
+		<text xml:space="preserve" font-family="Times New Roman" font-size="16" font-style="normal" font-weight="normal" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 0.2; white-space: pre;" ><tspan x="-75" y="-15.95" >This group will</tspan><tspan x="-75" y="5.03" >ungroup once selected,</tspan><tspan x="-75" y="26" >erasable = deep</tspan></text>
+</g>
+		<g transform="matrix(0.75 0.27 -0.44 1.24 148.53 200.82)"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,128,0); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="75" />
+</g>
+</g>
+</g>
+<g transform="matrix(0.22 0.12 -0.12 0.22 439.95 430.8)" clip-path="url(#CLIPPATH_3)"  >
+<clipPath id="CLIPPATH_3" >
+	<circle transform="matrix(1 0 0 1 0 0)" cx="0" cy="0" r="200" />
+</clipPath>
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="https://ip.webmasterapi.com/api/imageproxy/http://fabricjs.com/assets/mononoke.jpg" x="-300" y="-200" width="600" height="400"></image>
+</g>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(0,0,255,0.4)"></rect>
+</svg>
