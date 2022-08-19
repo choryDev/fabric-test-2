@@ -1,14 +1,14 @@
 import { useCallback, useRef, useEffect } from 'react';
-import { fabric } from './fabric';
+const { fabric } = require('./fabric.min');
 
 const DEV_MODE = process.env.NODE_ENV === 'development';
 
 /**
  * Create fabric.Canvas ref
  * Supports restoring canvas state after reload when in DEV mode
- * We use a ref function and not a ref object because fabric.Canvas 
+ * We use a ref function and not a ref object because fabric.Canvas
  * needs to be informed of changes made to the canvas element it works with
- * 
+ *
  * @param {(canvas: fabric.Canvas) => any} [init] callback invoked after canvas has been initialized (runs every time the canvas element ref changes)
  * @param {boolean} [saveState=true] save canvas state between app refresh cycles, has effect only in DEV mode
  */

@@ -1,7 +1,7 @@
+//@ts-nocheck
 import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react';
 //  open `./fabric/fabric.ts` to change the import source (local build or published module)
 import { fabric, useCanvas } from './fabric';
-import { Comments } from './sandbox';
 
 function App() {
   const [fc, setRef] = useCanvas(canvas => {
@@ -57,12 +57,6 @@ function App() {
 
   return (
     <>
-      <Comments>
-        {/**add comments explaning what this is all about */}
-        {/*<a href="https://github.com/fabricjs/fabric.js/issues/7454">#7454 <code>Group With ClipPath and Text with Shadow Renders Incorrectly</code></a>*/}
-        The objects are clipped, their clip path not centered.
-        Try seleting the objects.
-      </Comments>
       <canvas
         width={500}
         height={500}

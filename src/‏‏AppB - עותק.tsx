@@ -1,7 +1,7 @@
+//@ts-nocheck
 import React, { useEffect, useState } from 'react';
 //  open `./fabric/fabric.ts` to change the import source (local build or published module)
 import { fabric, useCanvas } from './fabric';
-import { Comments } from './sandbox';
 
 function App() {
   const [fc, setRef] = useCanvas(canvas => {
@@ -102,7 +102,7 @@ function App() {
       new fabric.Polyline(points,{ ...options, left:0,fill:'' }),
       triangle,
       // group,
-  
+
     );
 /*
     canvas.forEachObject(obj => {
@@ -125,7 +125,7 @@ function App() {
   const [strokeMiterLimit, setStrokeMiterLimit] = useState(4);
 
   useEffect(() => {
-    
+
     fc.current?.forEachObject(obj => {
       obj.set({ strokeWidth, strokeLineJoin, strokeMiterLimit, dirty: true });
       const center = obj.getCenterPoint();
@@ -134,15 +134,11 @@ function App() {
       obj.setPositionByOrigin(center, 'center', 'center');
     });
     fc.current?.requestRenderAll();
-    
+
   }, [strokeWidth, strokeLineJoin, strokeMiterLimit]);
 
   return (
     <>
-      <Comments>
-        {/**add comments explaning what this is all about */}
-        Try selecting the polygon with different stroke config
-      </Comments>
       <form>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           strokeWidth

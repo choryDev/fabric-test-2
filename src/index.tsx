@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Canvas from "./EraserApp";
 import reportWebVitals from "./reportWebVitals";
-import SandboxUI from "./sandbox";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 

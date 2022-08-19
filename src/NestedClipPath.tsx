@@ -1,7 +1,7 @@
+//@ts-nocheck
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 //  open `./fabric/fabric.ts` to change the import source (local build or published module)
 import { fabric, useCanvas } from './fabric';
-import { Comments } from './sandbox';
 
 const JSON_DATA = [];
 
@@ -243,12 +243,6 @@ export default function App() {
           from SVG
         </button>
       </div>
-      <Comments>
-        {/**add comments explaning what this is all about */}
-        Compare what you see on canvas to svg and image outputs<br/>
-        SVG output doesn't support nested clip path on group<br />
-        Downloading might not work on codesandbox...
-      </Comments>
       <canvas
         width={500}
         height={500}

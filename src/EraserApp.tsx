@@ -1,7 +1,7 @@
+//@ts-nocheck
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 //  open `./fabric/fabric.ts` to change the import source (local build or published module)
 import { fabric, useCanvas } from './fabric';
-import { Comments } from './sandbox';
 
 function App1() {
   const [fc, setRef] = useCanvas(canvas => {
@@ -54,9 +54,6 @@ function App1() {
 
   return (
     <>
-      <Comments>
-        {/**add comments explaning what this is all about */}
-      </Comments>
       <canvas
         width={500}
         height={500}
@@ -110,7 +107,7 @@ export default function App() {
       radius:200,
       originX:'center',
       originY:'center',
-        
+
     });
 
     var clipPath2 = new fabric.Circle({
@@ -159,14 +156,14 @@ export default function App() {
         ),
         //new fabric.Circle({ top: 140, left: 230, radius: 75, fill: "red", erasable: false }),
         nestedGroup
-        
+
       ],
       {
         erasable: 'deep',
         clipPath
       }
     );
-    
+
 
     const groupB = new fabric.Group(
       [
@@ -220,7 +217,7 @@ export default function App() {
         setTimeout(() => {
           canvas.setActiveObject(obj);
         }, 50);
-        
+
       }
       canvas.renderAll();
     });
@@ -256,7 +253,7 @@ export default function App() {
       group,
       groupB,
       new fabric.Circle({
-        top: 0, left: 0, radius: 75, fill: "yellow", 
+        top: 0, left: 0, radius: 75, fill: "yellow",
         clipPath: new fabric.Rect({
         //  top: 50,
        //   left: 150,
@@ -267,7 +264,7 @@ export default function App() {
           clipPath: new fabric.Circle({ top: 0, left: 0, radius: 10, originX: 'center', originY: 'center', }),
         }),
       }),
-      
+
     );
 
     fabric.Image.fromURL(

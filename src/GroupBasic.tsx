@@ -1,7 +1,7 @@
+//@ts-nocheck
 import React from 'react';
 //  open `./fabric/fabric.ts` to change the import source (local build or published module)
 import { fabric, useCanvas } from './fabric';
-import { Comments } from './sandbox';
 
 function App() {
   const [fc, setRef] = useCanvas(canvas => {
@@ -16,8 +16,8 @@ function App() {
       }),
       circle
     ]);
-    canvas.add(     
-     
+    canvas.add(
+
       text,
       g
     );
@@ -46,12 +46,6 @@ function App() {
 
   return (
     <div className="App">
-      <Comments>
-        {/**add comments explaning what this is all about */}
-        Move around the group (circle and rect)<br/>
-        The circle gets selected on mouse up.<br />
-        It remains part of group and most of the functionality works<br />
-      </Comments>
       <canvas ref={setRef} width={500} height={500} />
     </div>
   );
