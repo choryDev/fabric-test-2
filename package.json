@@ -1,8 +1,11 @@
 {
+	"main": "public/main.js",
+	"homepage": "./",
 	"name": "fabric_app",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@electron/remote": "^2.0.8",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
@@ -15,6 +18,8 @@
 		"concurrently": "^7.3.0",
 		"cross-env": "^7.0.3",
 		"electron": "^20.0.3",
+		"electron-builder": "^23.3.3",
+		"electron-is-dev": "^2.0.0",
 		"jsdom": "^20.0.0",
 		"react": "^17.0.2",
 		"react-bootstrap": "^2.0.0-beta.2",
@@ -25,16 +30,17 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"start": "node sandbox start",
+		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"deploy": "node sandbox deploy",
-		"serve": "node sandbox serve",
 		"app": "react-scripts start",
 		"electron:serve": "concurrently -k \"cross-env BROWSER=none yarn start\" \"yarn electron:start\"",
-		"electron:build": "",
+		"electron:build": "npm run build && electron-builder -c.extraMetadata.main=build/main.js",
 		"electron:start": "wait-on tcp:3000 && electron ."
+	},
+	"directories": {
+		"buildResources": "assets"
 	},
 	"eslintConfig": {
 		"extends": [

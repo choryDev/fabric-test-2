@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Canvas from "./EraserApp";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
+
+const Canvas = React.lazy(() => import('./EraserApp'));
 
 function App() {
   return (
